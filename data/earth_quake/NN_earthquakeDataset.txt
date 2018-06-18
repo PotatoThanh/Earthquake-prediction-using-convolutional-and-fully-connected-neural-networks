@@ -1,0 +1,37 @@
+The contents of this folder:
+====INPUT====
+1. NN_test_X
+Column 1-20: Latitude and longitude of first ten detecting stations
+Column 21-29: Time difference of P-wave detection (first station and second station, second station and third station, and so on)
+Column 30-39: Time difference of P-wave detection and original earthquake event time
+
+2. NN_test_X_1statn
+Column 1-2: Latitude and longitude of first station
+Column 3: Time difference of P-wave detection between first and second station
+
+3. NN_test_X_3statns
+Column 1-6: Latitude and longitude of first three station detecting P-wave
+Column 7-8: Time difference of P-wave detection between first and second station, and second and third station
+Column 9-11: Time difference of P-wave detection and original earthquake event time of these three stations
+
+====OUTPUT====
+1. NN_test_Y_ADO
+Column 1: S_wave arrival time at ADO seismic stations
+
+2. NN_test_Y_RPV
+Column 1: S_wave arrival time at RPV seismic stations
+
+3. NN_test_Y_RSS
+Column 1: S_wave arrival time at RSS seismic stations
+
+4. NN_test_Y_USC
+Column 1: S_wave arrival time at USC seismic stations
+
+5. NN_test_Y_depth
+Column 1: The earthquakes depth
+
+5. NN_test_Y_eqLoc
+Column 1: Latitude and longitude of the earthquakes 
+
+5. NN_test_Y_magnitude
+Column 1: The magnitudes of the earthquake
